@@ -69,9 +69,9 @@ $(function() {
           */
 
           it('click trigger menu visibility', function() {
-            $('.menu-icon-click').trigger.("click");
+            $('.menu-icon-link').trigger.("click");
             expect($('body').hasClass('menu-hidden'))not.toBe(true);
-            $('.menu-icon-click').trigger.("click");
+            $('.menu-icon-link').trigger.("click");
             expect($('body').hasClass('menu-hidden')).toBe(true);
           });
     });
