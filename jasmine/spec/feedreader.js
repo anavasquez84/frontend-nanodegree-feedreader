@@ -81,11 +81,11 @@ $(function() {
          * a single .entry element within the .feed container. */
 
         beforeEach(function(done) {
-            loadFeed(0, done)
+            loadFeed(0, done);
         });
 
         it('loading feed', function() {
-            expect($('.feed').length >= 1).toBe(true);
+            expect($('.feed').length >=1).toBe(true);
             expect($('.entry').length >= 1).toBe(true);
         });
     });
@@ -110,7 +110,7 @@ $(function() {
         });
 
         it('loaded content feed changes', function() {
-            expect(initialFeed === newFeed).not.toBe(true);
+            expect(initialFeed).not.toEqual(newFeed);
         });
     });
 
