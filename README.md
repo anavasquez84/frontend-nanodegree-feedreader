@@ -3,7 +3,7 @@ P6 for Udacity's Front-End Nanodegree
 
 #####Project Overview
 
-This project involves exploring test-driven JavaScript development with a web-based RSS reader. Using Jasmine's behavior-driven development framework, I wrote different "suites" to test the functionality of RSS Feeds, menu visibility, feed entries and new feeds. I also wrote "specs" to ensure each test suite performaned what was expected of it.
+This project involves exploring test-driven JavaScript development with a web-based RSS reader. Using Jasmine's behavior-driven development framework, I wrote different "suites" to test the functionality of RSS Feeds, menu visibility, feed entries and new feeds. I also wrote "specs" to ensure each test suite performed what was expected of it.
 
 This project was completed by writing behavior-driven JavaScript tests using Jasmine. 
 
